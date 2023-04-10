@@ -1,12 +1,13 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background-position: center;
-    
+    background-position: right;
+   
 }
 
 *{
-    margin:0;
-    padding:0;
+    margin: 0.5px;
+    padding: 0.5px;
+
     }
 h1{ color: blue;
     background-color:navajowhite;
@@ -15,6 +16,10 @@ h1{ color: blue;
 strong{
     color: black;
     font: optional;
+}
+p{
+    font-size: medium;
+    color: darkgoldenrod;
 }
 p1{
     color: tomato;
@@ -83,16 +88,17 @@ header,footer{
     width: 100%;
 }
 footer{
-    height: 10vh;
-    bottom: 0;
-    background-color:saddlebrown;
+    height: 15vh;
+    bottom: -5%;
+    background-color:darkolivegreen;
+
 }
 header img{
     margin-top: 10px;
     margin-left: 30px;
 }
 header{
-    height: 10vh;
+    height: 15vh;
     background-color:darkslategray;
 }
 footer a {
@@ -104,12 +110,13 @@ footer p{
     position: absolute;
     left: 20%;
     color: lightcoral;
+    font: 20px;
 }
   main img{
     float: center;
-   margin: 80px,-16%;
+   margin: 80px,-20%;
    }
-  
-   
-
+  main{
+    background-color:darkcyan;
+    }
 
