@@ -1,0 +1,115 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-position: center;
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+    }
+h1{ color: blue;
+    background-color:navajowhite;
+    bottom: 100px;
+}
+strong{
+    color: black;
+    font: optional;
+}
+p1{
+    color: tomato;
+}
+p2{
+    color:black;
+}
+p3{
+    color:royalblue;
+    font-size: large;
+}
+p4{
+    color:red;
+}
+.contact{
+    width: 100%;
+    position: absolute
+  }
+.contact a {
+    position: relative;
+    left:45%;
+    top:1px;
+    color:aqua;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.More{
+    width: 100%;
+    position: absolute
+  }
+.More a {
+    position: relative;
+    left:45%;
+    top:1px;
+    color:aqua;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.About{
+    width: 100%;
+    position: absolute
+  }
+.About a {
+    position: relative;
+    left:45%;
+    top:1px;
+    color:aqua;
+    text-decoration: none;
+    margin-right: 40px;
+}
+  nav {
+    width: 100%;
+    position: absolute;
+}
+.nav a {
+    position: relative;
+    left:45%;
+    top: 0.5%;
+    color:aqua;
+    text-decoration: none;
+    margin-right: 40px;
+}
+header,footer{
+    position: absolute;
+    width: 100%;
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+    background-color:saddlebrown;
+}
+header img{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+header{
+    height: 10vh;
+    background-color:darkslategray;
+}
+footer a {
+    position: absolute;
+    left:45%;
+    color:lightcoral
+}
+footer p{
+    position: absolute;
+    left: 20%;
+    color: lightcoral;
+}
+  main img{
+    float: center;
+   margin: 80px,-16%;
+   }
+  
+   
+
+
