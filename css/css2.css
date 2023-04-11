@@ -1,7 +1,7 @@
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     background-position: right;
-   
+    box-sizing: border-box;
 }
 
 *{
@@ -30,9 +30,6 @@ p2{
 p3{
     color:royalblue;
     font-size: large;
-}
-p4{
-    color:red;
 }
 .contact{
     width: 100%;
@@ -88,9 +85,9 @@ header,footer{
     width: 100%;
 }
 footer{
-    height: 15vh;
-    bottom: -5%;
-    background-color:darkolivegreen;
+    height: 30vh;
+    bottom: -20%;
+    background-color:midnightblue;
 
 }
 header img{
@@ -98,8 +95,8 @@ header img{
     margin-left: 30px;
 }
 header{
-    height: 15vh;
-    background-color:darkslategray;
+    height: 20vh;
+    background-color:darkslategrey;
 }
 footer a {
     position: absolute;
@@ -111,12 +108,83 @@ footer p{
     left: 20%;
     color: lightcoral;
     font: 20px;
+    margin-top: -15px;
 }
   main img{
     float: center;
    margin: 80px,-20%;
+   border-radius: 2px;
+   width: 200px;
+   height: 200px;
+   bottom: -2px;
    }
   main{
-    background-color:darkcyan;
+    height: 110vh;
+    width: 100%;
+   background:url(../img/cpu\ \(2\).jpg) no-repeat;
+   background-size: cover;
+   align-items: center;
+   background-position: center;
     }
+        .pc button {
+            bottom: -5px;
+            background-color: #5edaf0;
+            color: #000;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 2px;
+            font-size: 20px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+
+        
+          }
+          .bottom-links .links span {
+            font-size: 20px;
+            color:black;
+            text-transform: uppercase;
+            margin: 5px 0;
+          }
+          
+          .bottom-links .links a {
+            text-decoration: none;
+            color:aqua;
+            padding: 10px 20px;
+            margin-right: 40px;
+          }
+          
+.achievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+  }
+  
+  .achievements .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+    
+  }
+  
+  .achievements .work .work-heading {
+    font-size: 40px;
+    color:brown;
+    text-transform:uppercase;
+    margin: 10px 0;
+    bottom: 10px;
+  }
+  
+  .achievements .work .work-text {
+    font-size: 25px;
+    color:floralwhite;
+    margin: 10px 0;
+  }
+  
+          
+          
+          
 
