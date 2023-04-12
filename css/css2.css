@@ -9,8 +9,8 @@ body{
     padding: 0.5px;
 
     }
-h1{ color: blue;
-    background-color:navajowhite;
+h1{ color:black;
+    background-color:darkgrey;
     bottom: 100px;
 }
 strong{
@@ -30,6 +30,11 @@ p2{
 p3{
     color:royalblue;
     font-size: large;
+}
+table{
+ height: 100vh;
+ width: 200vh;
+ background-color: tan;
 }
 .contact{
     width: 100%;
@@ -85,9 +90,9 @@ header,footer{
     width: 100%;
 }
 footer{
-    height: 30vh;
-    bottom: -20%;
-    background-color:grey;
+    height: 40vh;
+    bottom: -1000px;
+    background-color: #000;
 
 }
 header img{
@@ -96,17 +101,17 @@ header img{
 }
 header{
     height: 20vh;
-    background-color:darkslategrey;
+    background-color:olive;
 }
 footer a {
     position: absolute;
     left:45%;
-    color:lightcoral
+    color:white;
 }
 footer p{
     position: absolute;
     left: 20%;
-    color: lightcoral;
+    color:bisque;
     font: 20px;
     margin-top:-15px;
 }
@@ -116,12 +121,12 @@ footer p{
    border-radius: 2px;
    width: 200px;
    height: 200px;
-   bottom: -2px;
+   bottom: -2000%;
    }
   main{
-    height: 110vh;
+    height: 210vh;
     width: 100%;
-   background:url(../img/hy.jpg) no-repeat;
+   background:url(../img/pple.webp) no-repeat;
    background-size: cover;
    align-items: center;
    background-position: center;
@@ -169,7 +174,6 @@ footer p{
     padding: 0 40px;
     
   }
-  
   .achievements .work .work-heading {
     font-size: 40px;
     color:brown;
@@ -180,11 +184,15 @@ footer p{
   
   .achievements .work .work-text {
     font-size: 25px;
-    color:floralwhite;
+    color:olive;
     margin: 10px 0;
   }
-  
-          
-          
-          
-
+  #home .hu{
+    height: auto;
+    font-size: medium;
+  }
+  #home .hu.container{
+    text-transform:uppercase;
+    margin-right:110px;
+    bottom: -1000px;
+  }
