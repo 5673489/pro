@@ -22,7 +22,7 @@ p{
     color:black;
 }
 p1{
-    color: tomato;
+    color: black;
 }
 p2{
     color:black;
@@ -108,7 +108,7 @@ header,footer{
 }
 footer{
     height: 40vh;
-    bottom: -1000px;
+    bottom: -2200px;
     background-color: #000;
 
 }
