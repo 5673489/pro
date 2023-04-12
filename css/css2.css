@@ -91,7 +91,7 @@ header,footer{
 }
 footer{
     height: 40vh;
-    bottom: -1000px;
+    bottom: -700px;
     background-color: #000;
 
 }
@@ -100,8 +100,8 @@ header img{
     margin-left: 30px;
 }
 header{
-    height: 20vh;
-    background-color:olive;
+    height: 25vh;
+    background-color:darkslategray;
 }
 footer a {
     position: absolute;
@@ -127,7 +127,6 @@ footer p{
     height: 210vh;
     width: 100%;
    background:url(../img/pple.webp) no-repeat;
-   background-size: cover;
    align-items: center;
    background-position: center;
     }
