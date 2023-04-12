@@ -14,12 +14,12 @@ h1{ color:black;
     bottom: 100px;
 }
 strong{
-    color: black;
+    color:darkslategray;
     font: optional;
 }
 p{
     font-size: medium;
-    color: darkgoldenrod;
+    color:black;
 }
 p1{
     color: tomato;
@@ -50,7 +50,8 @@ table{
 }
 .More{
     width: 100%;
-    position: absolute
+    position: absolute;
+    background-color:dimgray;
   }
 .More a {
     position: relative;
@@ -59,6 +60,9 @@ table{
     color:aqua;
     text-decoration: none;
     margin-right: 40px;
+}
+.More footer{
+  bottom: -100px;
 }
 
 .About{
@@ -73,6 +77,19 @@ table{
     text-decoration: none;
     margin-right: 40px;
 }
+.wrapper{
+  margin: 1px auto;
+  width: 80%;
+  display: flex;
+}
+     .wrapper img{
+  float:left;
+  max-width: 400px;
+  border:none;
+  margin-right: 20px;
+  padding: 1rem;
+}
+
   nav {
     width: 100%;
     position: absolute;
@@ -91,7 +108,7 @@ header,footer{
 }
 footer{
     height: 40vh;
-    bottom: -700px;
+    bottom: -1000px;
     background-color: #000;
 
 }
